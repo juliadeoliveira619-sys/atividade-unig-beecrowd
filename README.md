@@ -358,4 +358,59 @@ int main() {
     return 0;
 }
 
-18. ( Problema 
+18. ( Problema 1004 - Produto Simples)
+
+    
+#include <stdio.h>
+ 
+int main() {
+    int A, B, PROD;
+    scanf("%d %d", &A, &B);
+    PROD = A * B;
+    printf("PROD = %d\n", PROD);
+    return 0;
+}
+
+19. (Problema 1003 - Soma Simples)
+
+    #include <stdio.h>
+ 
+int main() {
+    int A, B, SOMA;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    SOMA = A + B;
+
+    printf("SOMA = %d\n", SOMA);
+
+    return 0;
+}
+
+20. ( Problema 1001 - Extremamente Básico)
+
+    #include <stdio.h>
+
+int main() {
+    // Declaração das variáveis.
+    int A, B, X;
+
+    // 1. Leitura da Entrada: Lê dois valores inteiros (A e B) da entrada.
+    // O scanf lerá os valores que o sistema de teste fornecer.
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    // 2. Cálculo: Realiza a soma de A e B e armazena em X.
+    X = A + B;
+
+    // 3. Impressão da Saída: Imprime o resultado no formato EXATO.
+    // "X = [valor]\n"
+    // Note: X maiúsculo, um espaço antes e um depois do sinal de igual, 
+    // e o "\n" para a quebra de linha.
+    printf("X = %d\n", X);
+
+    return 0;
+}
+
+    
