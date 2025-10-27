@@ -387,9 +387,10 @@ int main() {
     printf("SOMA = %d\n", SOMA);
     
     return 0;
+    
 }
 
-21. ( Problema 1001 - Extremamente Básico)
+20. ( Problema 1001 - Extremamente Básico)
 
     #include <stdio.h>
 
