@@ -360,9 +360,8 @@ int main() {
 
 18. ( Problema 1004 - Produto Simples)
 
-    
+
 #include <stdio.h>
- 
 int main() {
     int A, B, PROD;
     scanf("%d %d", &A, &B);
@@ -374,17 +373,12 @@ int main() {
 19. (Problema 1003 - Soma Simples)
 
     #include <stdio.h>
- 
 int main() {
     int A, B, SOMA;
-
     scanf("%d", &A);
     scanf("%d", &B);
-
     SOMA = A + B;
-
     printf("SOMA = %d\n", SOMA);
-
     return 0;
 }
 
