@@ -376,7 +376,9 @@ int main() {
 19. (Problema 1003 - Soma Simples)
 
     #include <stdio.h>
+    
 int main() {
+
     int A, B, SOMA;
     
     scanf("%d", &A);
