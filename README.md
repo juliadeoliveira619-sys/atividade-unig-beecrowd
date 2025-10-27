@@ -364,8 +364,11 @@ int main() {
 #include <stdio.h>
 int main() {
     int A, B, PROD;
+    
     scanf("%d %d", &A, &B);
+    
     PROD = A * B;
+    
     printf("PROD = %d\n", PROD);
     return 0;
 }
@@ -375,14 +378,17 @@ int main() {
     #include <stdio.h>
 int main() {
     int A, B, SOMA;
+    
     scanf("%d", &A);
     scanf("%d", &B);
+    
     SOMA = A + B;
+    
     printf("SOMA = %d\n", SOMA);
     return 0;
 }
 
-20. ( Problema 1001 - Extremamente Básico)
+21. ( Problema 1001 - Extremamente Básico)
 
     #include <stdio.h>
 
